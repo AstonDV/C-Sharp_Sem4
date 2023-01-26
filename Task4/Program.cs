@@ -29,7 +29,8 @@ int[] getArray()
 void main()
 {
     int[] array = getArray();
-    printArray(array);
+    // printArray(array);
+    Console.WriteLine(String.Join(", ", array));
 }
 
 main();
