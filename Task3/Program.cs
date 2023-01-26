@@ -17,7 +17,12 @@ int GetMult(int A)
     return mult;
 }
 
-Console.Write("Введите А: ");
-int n = int.Parse(Console.ReadLine()!);
-int mult = GetMult(n);
-Console.WriteLine($"{mult}");
+void main()
+{
+    Console.Write("Введите А: ");
+    int n = int.Parse(Console.ReadLine()!);
+    int mult = GetMult(n);
+    Console.WriteLine($"{mult}");
+}
+
+main();
